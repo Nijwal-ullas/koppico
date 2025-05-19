@@ -1,0 +1,106 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+body{
+    color: white;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    height: 220px;
+    color: rgba(255, 255, 255, 0.719);
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.head{
+    text-align: center;
+    font-family:  'Cinzel', serif;
+
+}
+
+.head-p{
+    padding-bottom: 40px;
+    word-spacing: 15px;
+}
+
+.line{
+    height: 1px;
+    background-color: white;
+    width: 1400px;
+    margin: 20px;
+}
+
+h1{
+    font-size: 52px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.img1{
+    width: 100%
+}
+
+.second{
+    width: 100%;
+    height: 1200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-total{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+.p-first{
+    padding-bottom: 40px;
+}
+.both-box{
+    padding-top: 200px;
+   
+}
+.outer-box{
+    width: 850px;
+    border: 1px dotted rgb(38, 110, 143);
+    padding: 12px;
+}
+.inner-box{
+     border: 1px dotted rgb(218, 100, 214);
+    padding: 12px;
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
